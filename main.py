@@ -1106,7 +1106,7 @@ def populate_ws_day_of_week(
     ax.set_title(title, fontsize=20)
     ax.set_xlabel('Day of Week', fontsize=16)
     ax.tick_params(axis='x', labelsize=12)
-    ax.set_ylim(bottom=0.05, top=0.045)
+    ax.set_ylim(bottom=0.005, top=0.045)
     ax.set_ylabel(f"Mean ECR (%)", fontsize=16)
     ax.tick_params(axis='y', labelsize=12)
     ax.yaxis.set_major_formatter(PercentFormatter(xmax=1, symbol=''))
